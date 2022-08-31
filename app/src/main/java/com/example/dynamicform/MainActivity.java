@@ -129,7 +129,7 @@ public class MainActivity extends AppCompatActivity {
       fetchAllUser();
     }
 
-    private void fetchAllUser() {
+    private  void fetchAllUser() {
         ArrayList<Person> p = new ArrayList<Person>();
         p=databaseHelper.getAllUser();
 
